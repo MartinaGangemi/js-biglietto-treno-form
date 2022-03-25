@@ -18,7 +18,7 @@
            <div class="col-4">
                 <div class="text-center px-4">
                     <label for="name" class="form-label">Nome Cognome</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="my_name">
                 </div>
             </div>
             <!-- km -->
@@ -41,7 +41,7 @@
            </div>
        
            <div class="col-12 mt-4 text-center">
-            <button type="submit" class="btn btn-primary">Genera</button>
+            <button type="submit" class="btn btn-primary" onclick="user_name()">Genera</button>
             <button type="submit" class="btn btn-primary">Annulla</button>
           </div>  
         </div>
@@ -57,7 +57,7 @@
                 <div class="col-4 bg-secondary">
                     <div>
                         <div class="text-uppercase fw-bold mt-3">Nome passeggiero</div>
-                        <span id="name"></span>
+                        <span class="fw-bold h5" id="show_name"></span>
                     </div>
                 </div>
                 <!-- offerta -->
