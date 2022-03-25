@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main_color: #B91450
+}
+
+body{
+    background-color: var(--main_color);
+}
+
+.ticket{
+    height: 150px;
+}
