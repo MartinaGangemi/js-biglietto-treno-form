@@ -33,15 +33,15 @@
                 <div  class="text-center  px-4">
                     <label for="name" class="form-label">Fascia d'età</label>
                         <select class="form-select" aria-label="Default select example" id="select_age">
-                            <option value="1">Minorenne</option>
-                            <option value="2">Over 65</option>
-                            <option value="3">Prezzo pieno</option>
+                            <option value="minorenne">Minorenne</option>
+                            <option value="anziano">Over 65</option>
+                            <option value="adulto">Prezzo pieno</option>
                         </select>
                 </div>
            </div>
        
            <div class="col-12 mt-4 text-center">
-            <button type="submit" class="btn btn-primary" onclick="user_name()">Genera</button>
+            <button type="submit" class="btn btn-primary" id="genera">Genera</button>
             <button type="submit" class="btn btn-primary">Annulla</button>
           </div>  
         </div>
@@ -76,10 +76,10 @@
                 <div class="col-2 d-flex mt-3 ">
                     <div class="row">
                         <div class="col-12">
-                            <div class="fw-bold ">Offerta</div>
+                            <div class="fw-bold ">Carrozza</div>
                         </div>
                         <div class="col-12 d-flex align-items-end  mb-3">
-                            <div></div>
+                            <div id="numero_carrozza"></div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                             <div class="fw-bold ">Codice CP</div>
                         </div>
                         <div class="col-12 d-flex align-items-end  mb-3">
-                            <div></div>
+                            <div id="codice_cp"></div>
                         </div>
                     </div>
                 </div>
@@ -100,10 +100,10 @@
                 <div class="col-2 d-flex mt-3">
                     <div class="row">
                         <div class="col-12">
-                            <div class="fw-bold ">Offerta</div>
+                            <div class="fw-bold ">Costo biglietto</div>
                         </div>
                         <div class="col-12 d-flex align-items-end mb-3">
-                            <div></div>
+                            <div id="prezzo"></div>
                         </div>
                     </div>
                 </div>
