@@ -32,7 +32,8 @@ a:hover{
     border: 1px solid var(--main_color);
     border-radius: 8px; 
     margin-left: 1rem; 
-    text-decoration: none;    
+    text-decoration: none; 
+    cursor: pointer; 
 }
 
 body{
