@@ -23,6 +23,8 @@ a:hover{
 }
 
 .button{
+    height:  35px;
+    width: 78px;
     color: var(--main_color);
     font-weight: 500;
     background-color: var(--bg_btn);
