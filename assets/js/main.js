@@ -16,7 +16,7 @@ function display_information (){
         document.getElementById("sconto").innerHTML = `Prezzo intero ${my_age}`
     }
     // carrozza
-    document.getElementById("numero_carrozza").innerHTML = Math.floor(Math.random()*10);
+    document.getElementById("numero_carrozza").innerHTML = Math.floor(Math.random()*10 + 1);
     // codice CP
     document.getElementById("codice_cp").innerHTML = Math.floor(Math.random()*10000);
     //prezzo al km
