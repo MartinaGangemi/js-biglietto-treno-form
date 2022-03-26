@@ -12,27 +12,30 @@
   <body>
       <!-- form da compilare -->
       <h2 class="text-uppercase text-light text-center mt-4">Calcola il prezzo del tuo biglietto</h2>
-    <div class="container bg-light rounded rounded-3 mt-4">
+    <div class="container bg-light rounded rounded-3 mt-4 shadow">
+        <form>
         <div class="row p-4 px-5">
            <!-- nome e cognome -->
-           <div class="col-4">
+           
+           <div class="col-12 col-md-4">
                 <div class="text-center px-4">
-                    <label for="name" class="form-label">Nome Cognome</label>
-                    <input type="text" class="form-control" id="my_name">
+                    <label for="name" class="form-label text_color">Nome Cognome</label>
+                    <input type="text" class="form-control border_form shadow-none" id="my_name">
                 </div>
             </div>
+        
             <!-- km -->
-           <div class="col-4">
+           <div class="col-12 col-md-4">
                 <div  class="text-center  px-4">
-                    <label for="name" class="form-label">Km da percorrere</label>
-                    <input type="text" class="form-control" id="my_km">
+                    <label for="name" class="form-label text_color">Km da percorrere</label>
+                    <input type="number" class="form-control border_form shadow-none" id="my_km">
                 </div>
             </div>
             <!-- fascia d'età -->
-           <div class="col-4">
+           <div class="col-12 col-md-4">
                 <div  class="text-center  px-4">
-                    <label for="name" class="form-label">Fascia d'età</label>
-                        <select class="form-select" aria-label="Default select example" id="select_age">
+                    <label for="name" class="form-label text_color">Fascia d'età</label>
+                        <select class="form-select border_form  shadow-none" aria-label="Default select example" id="select_age">
                             <option value="minorenne">Minorenne</option>
                             <option value="anziano">Over 65</option>
                             <option value="adulto">Prezzo pieno</option>
@@ -41,18 +44,19 @@
            </div>
        
            <div class="col-12 mt-4 text-center">
-            <button type="submit" class="btn btn-primary" id="genera">Genera</button>
-            <button type="submit" class="btn btn-primary">Annulla</button>
-          </div>  
+            <a type="submit" class="button" id="genera">Genera</a>
+            <input type="reset" class="button" id="annulla" value="Annulla" >
+          </div> 
         </div>
+     </form> 
     </div>
 
     <!-- il tuo biglietto -->
-    <div>
+    <div class="your_ticket">
         <h3 class="text-uppercase text-light text-center mt-4">Il tuo biglietto</h3>
-        <div class="container bg-light p-4">
+        <div class="container bg-light p-4 ">
             <h5 class="text-uppercase mt-1">dettaglio passeggieri</h5>
-            <div class="row border border-2 ticket">
+            <div class="row border border-1 border-end-0 border-secondary ticket">
                 <!-- nome -->
                 <div class="col-4 bg-secondary">
                     <div>

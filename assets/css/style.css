@@ -5,7 +5,28 @@
 }
 
 :root{
-    --main_color: #B91450
+    --main_color: #B91450;
+    --bg_btn: #ccc;
+}
+
+
+.text_color{
+    color: var(--main_color)!important;
+}
+
+.border_form{
+    border: solid 1px var(--main_color)!important;
+}
+
+.button{
+    color: var(--main_color);
+    font-weight: 500;
+    background-color: var(--bg_btn);
+    padding: 3px 10px;
+    border: 1px solid var(--main_color);
+    border-radius: 8px; 
+    margin-left: 1rem; 
+    text-decoration: none;    
 }
 
 body{
@@ -14,4 +35,12 @@ body{
 
 .ticket{
     height: 150px;
+}
+
+.your_ticket {
+    display: none ;
+}
+
+.show_ticket{
+  display: block;
 }
