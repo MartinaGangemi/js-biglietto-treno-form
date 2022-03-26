@@ -18,6 +18,10 @@
     border: solid 1px var(--main_color)!important;
 }
 
+a:hover{
+    color: var(--main_color);
+}
+
 .button{
     color: var(--main_color);
     font-weight: 500;
